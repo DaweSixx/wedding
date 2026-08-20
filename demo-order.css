@@ -1,0 +1,26 @@
+.tom-demo-order {
+    position: fixed;
+    z-index: 2147483000;
+    top: 12px;
+    right: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 104px;
+    min-height: 44px;
+    padding: 0 18px;
+    border: 1px solid rgba(255, 255, 255, .72);
+    border-radius: 999px;
+    background: rgba(70, 85, 47, .9);
+    color: #fff;
+    font: 600 13px/1 system-ui, sans-serif;
+    letter-spacing: .06em;
+    text-decoration: none;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .16);
+    backdrop-filter: blur(10px)
+}
+
+.tom-demo-order:focus-visible {
+    outline: 3px solid #fff;
+    outline-offset: 3px
+}

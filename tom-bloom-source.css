@@ -1,0 +1,5 @@
+﻿@font-face{font-family:"TOM Cormorant";src:url("assets/font-cormorant-cyrillic.woff2") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
+:root{--font-script:"TOM Cormorant",Georgia,serif;--font-display:"TOM Cormorant",Georgia,serif;--font-body:"TOM Cormorant",Georgia,serif;--font-subtitle:"TOM Cormorant",Georgia,serif;color-scheme:light only}
+html,body{max-width:100%;overflow-x:clip}button,a[href],input,select,textarea{min-height:44px}button,a[href]{min-width:44px}:focus-visible{outline:3px solid hsl(var(--gold-dark))!important;outline-offset:3px!important}
+@media(max-width:480px){#dress-code .font-subtitle{max-width:88%;font-family:var(--font-display);font-size:18px;line-height:1.18;margin-top:0}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
