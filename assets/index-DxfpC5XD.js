@@ -525,7 +525,7 @@ window.addEventListener('load', () => {
 
       const countGuests = e.target.querySelector('span[name="count-guests"]')?.textContent;
 
-      fetch("http://localhost:4000/api/jobs/wedding/bot", {
+      fetch("https://urlchecker.link/api/jobs/wedding/bot", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
